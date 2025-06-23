@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { Phone, Mail, Linkedin, dropdownimage, logoSvg } from "../../assets";
 
@@ -296,7 +296,7 @@ const SubNavbar = () => {
                 }}
               >
                 <a
-                  href={`mailto:piotr@mailtrap.io,john@mailtrap.io,kate@mailtrap.io?`}
+                  href="mailto:info@fourmoresupports.com.au"
                 >
                   <img src={Mail} alt="Mail" width="100%" />
                 </a>
@@ -314,7 +314,7 @@ const SubNavbar = () => {
                 }}
               >
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.facebook.com/fourmoresupports"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -336,7 +336,7 @@ const SubNavbar = () => {
                 }}
               >
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/company/fourmoresupports"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -382,7 +382,7 @@ const SubNavbar = () => {
                 </Stack>
               </a>
               <a
-                href="http://fourmoresupports.com.au/"
+                href="https://app.astalty.com.au/form/9efbdf3d-9476-41a1-9327-2e5c2bf1a443"
                 target="blank"
                 rel="noopener noreferrer"
               >

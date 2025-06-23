@@ -11,10 +11,10 @@ import {
   Background1,
   sideImage,
   sideImage12,
-  sideImage13,
+  // sideImage13,
   sideImage14,
   sideImage17,
-  sideImage7,
+  // sideImage7,
   tick,
   VS,
 } from "../../assets";
@@ -91,7 +91,7 @@ const Support = () => {
             >
               <MainHeading heading="What is Support Coordination?" />
               <MainPara
-                para="At Four More Supports, we empower you with expert guidance, practical resources, and personalised support—so you can 
+                para="At Four More Supports, we empower you with expert guidance, practical resources, and personalised support so you can 
         make informed decisions, build independence, and achieve your NDIS goals confidently."
               />
             </Stack>
@@ -125,7 +125,7 @@ const Support = () => {
               textAlign="center"
             />
             <MainPara
-              para="Choosing the right NDIS partner makes all the difference. At Four More Supports, we integrate Support Coordination seamlessly into your plan—ensuring a smoother, more supported journey toward your goals."
+              para="Choosing the right NDIS partner makes all the difference. At Four More Supports, we integrate Support Coordination seamlessly into your plan ensuring a smoother, more supported journey toward your goals."
               textAlign="center"
             />
             <Button
@@ -312,7 +312,7 @@ by Four More Supports"
               textAlign="center"
             />
             <MainPara
-              para="At Four More Supports, we offer responsive and location-flexible Support Coordination—ensuring you receive the right support, wherever you are in Adelaide. Our delivery methods are tailored to suit your needs and lifestyle."
+              para="At Four More Supports, we offer responsive and location-flexible Support Coordination ensuring you receive the right support, wherever you are in Adelaide. Our delivery methods are tailored to suit your needs and lifestyle."
               textAlign="center"
             />
           </Stack>
@@ -330,7 +330,7 @@ by Four More Supports"
       <SupportSectionSecond
         heading="Independent & expert NDIS Support Coordinators in Adelaide"
         para="At Four More Supports, 
-        our Support Coordinators offer non-judegmental, expert guidance—always prioritising your goals."
+        our Support Coordinators offer non-judegmental, expert guidance always prioritising your goals."
         image={sideImage14}
         reverse={true}
       />

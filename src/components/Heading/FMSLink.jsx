@@ -7,7 +7,7 @@ const FMSLink = ({ children }) => {
   const modifiedText = children.split("FMS").map((part, index) =>
     index === 1 ? (
       <Link
-        to="http://fourmoresupports.com.au/ "
+        to="https://app.astalty.com.au/form/9efbdf3d-9476-41a1-9327-2e5c2bf1a443"
         key={index}
         style={{ textDecoration: "none", color: "#E9BC03" }}
         target="blank"

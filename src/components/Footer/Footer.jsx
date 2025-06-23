@@ -6,6 +6,8 @@ import Input from "../Heading/Input";
 import emailjs from "@emailjs/browser";
 import { IoIosMail } from "react-icons/io";
 
+ 
+
 const Footer = ({ setOpenDropdown }) => {
   const handleNDISClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -106,7 +108,7 @@ const Footer = ({ setOpenDropdown }) => {
                       }}
                     >
                       <a
-                        href="https://www.facebook.com"
+                         href="https://www.facebook.com/fourmoresupports"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -300,16 +302,7 @@ const Footer = ({ setOpenDropdown }) => {
                 <Typography variant="body1" color="rgba(255, 255, 255, 0.5)">
                   ABN 18660144187
                 </Typography>
-                <Box
-                  border="1px solid rgba(255, 255, 255, 0.5)"
-                  padding={2}
-                  width={{ xs: "100%", lg: "50%" }}
-                >
-                  <Typography variant="body1" color="rgba(255, 255, 255, 0.5)">
-                    Lorem ipsum dolor sit amet consectetur. Felis vulputate
-                    facilisis ut nulla ut mauris metus elementum
-                  </Typography>
-                </Box>
+  
               </Stack>
             </Box>
           </Stack>
@@ -325,7 +318,7 @@ const FooterBottom = () => {
     <Box backgroundColor="primary.main" paddingY={3}>
       <Container>
         <Typography variant="body1" color="#335469." textAlign="center">
-          Copyright@2024.Four More Supports. | Disclaimer | Privacy policy |
+          Copyright@2025.Four More Supports. | Disclaimer | Privacy policy |
           Terms & Conditions
         </Typography>
       </Container>
@@ -344,7 +337,7 @@ const Links = [
 const Linkstwo = [
   { link: "Terms of Use", path: "#" },
   { link: "Privacy Policy", path: "#" },
-  { link: "Complaints and feedback", path: "#" },
+  { link: "Complaints and feedback", path: "https://app.astalty.com.au/form/9efbe171-0d94-49d9-bac3-b18019d937f8" },
 ];
 
 export default Footer;
