@@ -59,7 +59,7 @@ import quote from "./images/quote.png";
 import specialsupport from "./images/specialsupport.png";
 import psyho from "./images/psyho.png";
 import dropdownimage from "./images/dropdown.png";
-import logoSvg from "./images/logo.svg";
+import logoSvg from "./images/Logo.svg";
 
 export {
   cardImage9,
