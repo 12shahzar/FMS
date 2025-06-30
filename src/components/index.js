@@ -1,7 +1,8 @@
 import Header from "./Header/Header";
 import Banner from "./Banner/Banner";
 import SupportSection from "./Section/SupportSection";
-import MainHeading from "./Heading/mainHeading";
+// import MainHeading from "./Heading/MainHeading";
+import MainHeading from "./Heading/MainHeading"
 import MainPara from "./Heading/MainPara";
 import SupportSectionSecond from "./Section/SupportSectionSecond";
 import SupportCompareSection from "./Section/SupportCompareSection";
