@@ -8,6 +8,8 @@ import Career from "./Career/Career";
 import Contact from "./Contact/Contact";
 import Support from "./Support/Support";
 import AddBlog from "./AddBlog/AddBlog";
+import Privacy from "./Privacy/Privacy"
+import TermCondition from "./TermCondition/TermCondition";
 
 export {
   Home,
@@ -20,4 +22,6 @@ export {
   Contact,
   Support,
   AddBlog,
+  Privacy,
+  TermCondition
 };

@@ -10,6 +10,8 @@ import {
   Contact,
   Support,
   AddBlog,
+  Privacy,
+  TermCondition,
 } from "../screens";
 import { Layout } from "../components";
 import ScrollToTop from "../components/Scroll/ScrollToTop"; // Import here
@@ -73,5 +75,13 @@ export const appRoutes = [
   {
     path: `/admin`,
     component: <AddBlog />,
+  },
+  {
+    path: `/privacy`,
+    component: <Privacy />,
+  },
+  {
+    path: `/termcondition`,
+    component: <TermCondition />,
   },
 ];

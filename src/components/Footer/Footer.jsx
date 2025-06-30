@@ -335,8 +335,8 @@ const Links = [
   { link: "Schedule of Supports", path: "#" },
 ];
 const Linkstwo = [
-  { link: "Terms of Use", path: "#" },
-  { link: "Privacy Policy", path: "#" },
+  { link: "Terms of Use", path: "/termcondition" },
+  { link: "Privacy Policy", path: "/privacy" },
   { link: "Complaints and feedback", path: "https://app.astalty.com.au/form/9efbe171-0d94-49d9-bac3-b18019d937f8" },
 ];
 

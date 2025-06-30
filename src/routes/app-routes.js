@@ -9,6 +9,8 @@ import {
   Contact,
   Support,
   AddBlog,
+  Privacy,
+  TermCondition
 } from "../screens";
 
 export const appRoutes = [
@@ -51,5 +53,13 @@ export const appRoutes = [
   {
     path: `/addblog`,
     component: <AddBlog />,
+  },
+  {
+    path: `/privacy`,
+    component: <Privacy />,
+  },
+  {
+    path: `/termcondition`,
+    component: <TermCondition />,
   },
 ];

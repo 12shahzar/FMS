@@ -304,7 +304,7 @@ by Four More Supports"
         <Container>
           <Stack
             gap={3}
-            width={{ xs: "100%", xl: "60%", lg: "60%", md: "60%", xs: "100%" }}
+            width={{ xs: "100%", xl: "60%", lg: "60%", md: "60%", sm: "100%" }}
             mx="auto"
           >
             <MainHeading
