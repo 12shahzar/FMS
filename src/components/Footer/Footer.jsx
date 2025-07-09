@@ -33,7 +33,7 @@ const Footer = ({ setOpenDropdown }) => {
 
     emailjs
       .send(
-        "service_ss78kx8",
+        "service_jbggpme",
         "template_yjo2ufe",
         {
           name: formData.fullName,

@@ -28,8 +28,8 @@ const Contact = () => {
     console.log(formData);
     emailjs
       .send(
-        "service_ss78kx8",
-        "template_2csttoj",
+        "service_jbggpme",
+        "template_yjo2ufe",
         {
           name: formData.fullName,
           email: formData.email,
@@ -107,18 +107,7 @@ const Contact = () => {
                 </Stack>
               </Stack>
 
-              {/* <Box width="100%" height="300px">
-                <iframe
-                  title="Google Map"
-                  src="https://www.google.com/maps?q=-34.86751768039092,138.58273901531677&z=15&output=embed"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
-              </Box> */}
+       
             </Stack>
 
             <Stack
